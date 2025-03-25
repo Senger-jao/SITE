@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+}
+header{
+    background-color: rgb(33, 2, 69);
+    padding:50px;
+    nav{
+        float: right;
+        ul{
+                list-style: none;
+                li{
+                    display: inline-block;
+                    font-family: Arial;
+                    text-transform: uppercase;
+                    margin: 15px;
+                    a {
+                        color: white;
+                        text-decoration: none;
+                        transition: 0.5s all;
+                    }
+                    a:hover {
+                        color: rgb(255, 0, 0);
+                    }
+                    .btn {
+                        background-color: rgb(0, 0, 0);
+                        padding: 10px 20px 10px 20px;
+                        border-radius: 10px;
+                    }
+                    .btn:hover {
+                        color: white;
+                        background-color: rgb(255, 0, 0);
+                    }
+                }
+        }
+    }
+}
