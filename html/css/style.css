@@ -1,4 +1,3 @@
-/* Reset e ajustes gerais */
 * {
     margin: 0;
     padding: 0;
@@ -8,10 +7,10 @@
 body {
     min-height: 100vh;
     background: linear-gradient(#000, #2a42e9);
-    padding-left: 85px; /* Garante que o conteúdo não fique sob o menu */
+    font-family: 'Arial', sans-serif;
+    color: #fff;
 }
 
-/* Menu lateral */
 .menu {
     position: fixed;
     top: 0;
@@ -23,7 +22,7 @@ body {
     padding: 20px 20px 20px 0;
     backdrop-filter: blur(5px);
     box-shadow: 8px 0px 9px 0px #8542e1;
-    z-index: 1000; /* Garante que o menu fique acima do conteúdo */
+    z-index: 1000; 
 }
 
 @media (min-width: 769px) {
@@ -60,17 +59,17 @@ a {
     background: #0c0c0c;
 }
 
-/* Responsividade */
+
 @media (max-width: 768px) {
     body {
-        padding-left: 0; /* Remove o espaço para o menu */
+        padding-left: 0;
     }
-    
+
     .menu {
         width: 100%;
         height: 60px;
         display: flex;
-        justify-content: center;
+        justify-content: space-around;
         align-items: center;
         padding: 0;
         bottom: 0;
@@ -83,34 +82,93 @@ a {
         justify-content: space-around;
         padding: 0;
     }
-    
+
     .menu-content li {
         padding: 10px;
         margin: 0;
         display: flex;
         align-items: center;
     }
-    
+
     .menu-content li span:nth-child(2) {
-        display: none;
+        display: none; 
     }
 
     .material-symbols-outlined {
         font-size: 24px;
         padding: 5px;
     }
-    
+
     div.reto img, div.baner img {
         width: 90%;
+        margin: 0 auto;
+    }
+
+    .historia .container .col img {
+        width: 70%;  
+        height: auto;
+        display: block;
+        margin: 0 auto;
     }
 
     h2 {
-        margin-left: 0;
         text-align: center;
+        margin: 20px;
+    }
+
+    .sobre .container {
+        padding: 20px;
+        text-align: center;
+    }
+
+    .sobre h1, .sobre p {
+        margin-bottom: 20px;
+    }
+
+    .sobre .btn {
+        font-size: 18px;
+        padding: 10px 15px;
+    }
+
+    .historia .container {
+        display: block;
+        text-align: center;
+    }
+
+    .flex {
+        display: block;
+    }
+
+    .col {
+        display: block;
+        text-align: center;
+    }
+
+    .col img {
+        width: 80%;  
+        margin: 0 auto;
+    }
+
+    .historia .btn {
+        font-size: 18px;
+        padding: 10px 15px;
+    }
+
+    .footer {
+        padding: 20px;
+        text-align: center;
+        position: relative;
+    }
+
+    .footer p {
+        font-size: 14px;
+        margin-top: 10px;
+        color: #fff;
+        display: block;
+        margin: 20px 0;
     }
 }
 
-/* Ajustes de imagens */
 div.reto img {
     width: 20%;
     height: auto;
@@ -168,4 +226,11 @@ p {
 .btn:hover {
     background: #8542e1;
     transform: scale(1.05);
+}
+
+div.col img {
+    display: inline-block;
+    margin-left: 439px;
+    width: 15%;
+    right: auto;
 }
