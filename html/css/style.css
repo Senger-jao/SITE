@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Boldonse&family=Stalinist+One&display=swap');
 * {
     margin: 0;
     padding: 0;
@@ -103,6 +104,9 @@ a {
         width: 90%;
         margin: 0 auto;
     }
+    div.reto{
+        width: 50%;
+    }
 
     .historia .container .col img {
         width: 70%;  
@@ -183,26 +187,25 @@ div.baner img {
     margin: 0 auto;
     border-radius: 50px;
 }
-
-/* Texto */
 h1 {
+    font-family: "Stalinist One" ;
     text-align: center;
 }
 
 .faixa {
     font: 26px "Lilita One", Roboto;
-    color: #FFF;
-    background: #4842e6;
+    color: #9a8c8c;
     margin: 20px;
     padding: 10px;
     line-height: 50px;
-    border-radius: 10px;
-    text-align: center;
+ 
 }
 
 h2 {
     text-align: center;
     margin: 20px;
+    color: #ccc;
+    font-family: "Boldonse";
 }
 
 p {
@@ -216,7 +219,7 @@ p {
     background: #6641e3;
     color: #FFF;
     text-decoration: none;
-    font: 20px "Lilita One", Roboto;
+    font: 40px "Lilita One", Roboto;
     padding: 12px 20px;
     border: 0;
     border-radius: 8px;
@@ -233,4 +236,22 @@ div.col img {
     margin-left: 439px;
     width: 15%;
     right: auto;
+}
+p.cosorro{
+    margin-left: 100px;
+}
+h2.lixa{
+    margin-left: 100px; 
+}
+h1.lente{
+    font-family: "Stalinist One" ;
+}
+h2.cosorro{
+    margin-left: 100px;
+}
+div.capgame{
+    img{
+    border-radius: 50px;
+    margin-left: 170px;
+    }
 }
