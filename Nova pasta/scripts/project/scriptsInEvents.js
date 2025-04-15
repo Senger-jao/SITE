@@ -23,4 +23,4 @@ const scriptsInEvents = {
 	}
 };
 
-globalThis.C3.JavaScriptInEvents = scriptsInEvents;
+self.C3.ScriptsInEvents = scriptsInEvents;

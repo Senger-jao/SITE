@@ -42,13 +42,13 @@ self.C3_GetObjectRefTable = function () {
 		C3.Plugins.System.Acts.Wait,
 		C3.Behaviors.Sin.Acts.SetEnabled,
 		C3.Plugins.Sprite.Acts.Destroy,
-		C3.JavaScriptInEvents.Fas1_Event10,
+		C3.ScriptsInEvents.Fas1_Event10,
 		C3.Plugins.Mouse.Cnds.OnObjectClicked,
 		C3.Plugins.Sprite.Cnds.IsOverlapping,
 		C3.Behaviors.MoveTo.Acts.MoveToPosition,
 		C3.Plugins.Spritefont2.Acts.Destroy,
 		C3.Plugins.Sprite.Acts.Spawn,
-		C3.JavaScriptInEvents.Fase2_Event14
+		C3.ScriptsInEvents.Fase2_Event14
 	];
 };
 self.C3_JsPropNameTable = [
